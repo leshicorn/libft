@@ -15,7 +15,7 @@ int ft_atoi(char* buf)
         ++buf;
     }
 
-    while (*buf && ft_isnum(*buf))
+    while (*buf && ft_isdigit(*buf))
     {
 		res *= 10;
         res += *buf - '0';
