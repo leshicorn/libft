@@ -1,6 +1,6 @@
 SRC_DIR=src
 OBJ_DIR=obj
-SRCS=$(shell find ${SRC_DIR} -name *.c)
+SRCS=$(shell find ${SRC_DIR} -name "*.c")
 OBJS=$(patsubst $(SRC_DIR)/%,$(OBJ_DIR)/%,$(SRCS:.c=.o))
 CC=gcc
 AR=ar

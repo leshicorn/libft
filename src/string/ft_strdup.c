@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char *strdup(char *str)
+char *ft_strdup(char *str)
 {
     char *res_copy;
     char *str_c = str;
